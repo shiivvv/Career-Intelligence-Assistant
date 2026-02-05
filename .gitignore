@@ -1,0 +1,42 @@
+# Environment
+.venv/
+venv/
+env/
+*.env
+.env.local
+
+# Chroma vector DB
+chroma_db/
+*.db
+
+# Streamlit
+.streamlit/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Uploads
+temp_*.pdf
+temp_*.txt
+uploads/
+
+# Sample jobs
+sample_jobs/*.txt
+sample_jobs/*.pdf
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
